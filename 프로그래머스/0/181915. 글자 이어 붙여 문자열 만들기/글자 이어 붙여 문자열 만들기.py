@@ -1,6 +1,6 @@
 def solution(my_string, index_list):
-    answer = ''
-
-    for num in index_list:
-        answer+=my_string[num]
-    return answer
+    result=""
+    for i in index_list:
+        result+=my_string[i]
+    
+    return result
