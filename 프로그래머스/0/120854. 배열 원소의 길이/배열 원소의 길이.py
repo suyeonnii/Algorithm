@@ -1,3 +1,6 @@
 def solution(strlist):
-    answer=[len(word) for word in strlist]
-    return answer
+    result=[]
+    for word in strlist:
+        result.append(len(word))
+        
+    return result
