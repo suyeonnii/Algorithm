@@ -1,9 +1,9 @@
 def solution(my_string):
-    answer = ''
-    
+    result=""
     for ch in my_string:
-        if 'A'<=ch<='Z':
-            answer+=chr(ord(ch)+32)
+        if ch.isupper():
+            result+=ch.lower()
         else:
-            answer+=chr(ord(ch)-32)
-    return answer
+            result+=ch.upper()
+    
+    return result
