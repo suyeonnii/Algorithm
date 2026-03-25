@@ -1,7 +1,7 @@
-def solution(n, numlist):
-    answer=[]
-    for i in numlist:
-        if i%n==0:
-            answer.append(i)
+def solution(n,numlist):
+    result=[]
+    for num in numlist:
+        if num%n==0:
+            result.append(num)
     
-    return answer
+    return result
