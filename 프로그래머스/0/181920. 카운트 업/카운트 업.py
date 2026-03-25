@@ -1,7 +1,6 @@
 def solution(start_num, end_num):
-    answer = []
-    
+    result=[]
     for num in range(start_num, end_num+1):
-        answer.append(num)
-        
-    return answer
+        result.append(num)
+    
+    return result
