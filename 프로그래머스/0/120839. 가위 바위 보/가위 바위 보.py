@@ -1,12 +1,11 @@
 def solution(rsp):
-    answer = ''
-    
-    for ch in rsp:
-        if ch=='2':
-            answer+='0'
-        elif ch=='0':
-            answer+='5'
-        elif ch=='5':
-            answer+='2'
+    result=""
+    for i in rsp:
+        if i=='2':
+            result+='0'
+        elif i=='0':
+            result+='5'
+        else:
+            result+='2'
             
-    return answer
+    return result
