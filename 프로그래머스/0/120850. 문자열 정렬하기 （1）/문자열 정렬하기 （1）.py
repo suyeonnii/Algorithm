@@ -1,8 +1,7 @@
 def solution(my_string):
-    answer = []
-
-    for i in my_string:
-        if i.isdigit():
-            answer.append(int(i));
+    result=[]
+    for ch in my_string:
+        if ch.isdigit():
+            result.append(int(ch))
     
-    return sorted(answer);
+    return sorted(result)
