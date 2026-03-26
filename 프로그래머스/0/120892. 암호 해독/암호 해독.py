@@ -1,8 +1,9 @@
 def solution(cipher, code):
-    answer = ''
+    result=""
+    i=0
+    for ch in cipher:
+        i+=1
+        if i%code==0:
+            result+=ch
     
-    for i in range(len(cipher)):
-        if (i+1) % code == 0:
-            answer += cipher[i]
-        
-    return answer
+    return result
