@@ -1,10 +1,10 @@
 # [level 0] flag에 따라 다른 값 반환하기 - 181933 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181933) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181933?language=python3) 
 
 ### 성능 요약
 
-메모리: 4.37 MB, 시간: 0.02 ms
+메모리: 9.2 MB, 시간: 0.00 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 03월 14일 18:49:53
+2026년 03월 26일 14:15:30
 
 ### 문제 설명
 
