@@ -1,8 +1,7 @@
 def solution(order):
-    answer = 0
-    
-    for char in str(order):
-        if char in ['3','6','9']:
-            answer+=1
-            
-    return answer    
+    clap=0
+    order=str(order)
+    for ch in order:
+        if ch in "369":
+            clap+=1
+    return clap
