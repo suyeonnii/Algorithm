@@ -1,14 +1,8 @@
 def solution(num_list):
-    answer = 0
-    product=1
-    squared_num=sum(num_list)**2
-    
+    a=1
+    b=0
     for num in num_list:
-        product*=num
+        a*=num
+        b+=num
     
-    if product > squared_num:
-        answer=0
-    else:
-        answer=1
-        
-    return answer
+    return 0 if a>b**2 else 1
