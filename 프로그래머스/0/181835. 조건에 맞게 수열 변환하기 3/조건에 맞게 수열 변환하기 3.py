@@ -1,10 +1,10 @@
 def solution(arr, k):
-    answer = []
+    result=[]
+    if k%2!=0:
+        for i in range(len(arr)):
+            result.append(arr[i]*k)
+    else:
+         for i in range(len(arr)):
+                result.append(arr[i]+k)
     
-    for i in range(len(arr)):
-        if k%2==0:
-            answer.append(arr[i]+k)
-        else:
-            answer.append(arr[i]*k)
-            
-    return answer
+    return result
